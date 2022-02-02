@@ -11,26 +11,6 @@ Java 11 project with Spring Boot, this project contains:
 ## Swagger Documentation
 When you run the app you can access to Swagger documentation in the next path: /swagger-ui.html.
 
-## Build Docker Image
-```bash
-# Build the image
-docker build -t pokedemo.jar .
-```
-
-## Check Docker Image
-```bash
-# Check the image
-docker image ls
-```
-
-## Run Docker Image
-```bash
-# Check the image
-docker run -p 9090:8080 pokedemo.jar
-```
-In the run command, I have specified that the port 8080 on the container should be mapped to the port 9090 on the Host OS.
-
-
 ## Run redis-server
 ```bash
 docker run --name redis-t -d -p 6379:6379 redis:6.0
