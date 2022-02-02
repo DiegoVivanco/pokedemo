@@ -31,8 +31,10 @@ docker run -p 9090:8080 pokedemo.jar
 In the run command, I have specified that the port 8080 on the container should be mapped to the port 9090 on the Host OS.
 
 
-##Run redis-server
+## Run redis-server
+```bash
 docker run --name redis-t -d -p 6379:6379 redis:6.0
+```
 
 ## Access URL:
 
